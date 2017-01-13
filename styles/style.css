@@ -1,0 +1,84 @@
+body {
+    width:90%;
+    
+    text-align: left;
+    margin: 0 auto;
+    font-family:Microsoft JhengHei;
+    
+} 
+.clear{
+    clear: both;
+    
+}
+i {
+    color: #02C9FF;
+}
+.about i{
+    color: #000;
+}
+
+
+h1{
+    margin: 0;
+}
+h2 {
+    text-align: left;
+}
+.content {
+    box-shadow:0 4px 4px ;
+}
+.header {
+    color: white;
+    background-color: rgba(0, 189, 128, 0.78);
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+.header h2{
+    text-align: left;
+    margin: 0;
+}
+ul{
+    text-align: left;
+}
+.leftcol {
+    width: 30%;
+    background-color:rgba(0, 189, 128, 0.15) ;
+    float: left;
+}
+.photo {
+    width: 100%;
+}
+.photo img {
+    width: 90%;
+}
+.about {
+        padding: 6px 24px;
+    background-color: rgba(56, 203, 156, 0.75);
+    margin-top: -4px;
+}
+
+
+.rightcol {
+    width: 70%;   
+    margin-left: 31%; 
+    
+}
+.person {   
+    width: 38%;
+    padding: 3% 3%;
+    float: left;
+}
+.prof {
+    width: 38%;
+    padding: 3% 3%;  
+      margin-left: 45%;
+}
+.pad {
+    padding: 10px;
+}
+
+
+.anim {
+    position: relative;
+}
