@@ -127,6 +127,7 @@
                      }
                      
                      var_dump($a == $b);
+                     echo "<br/>";
                      var_dump($a === $b);
                      
                 ?>
@@ -137,7 +138,9 @@
                      $c = (boolean)-20;
 
                      var_dump ($a );
+                     echo "<br/>";
                      var_dump ($b );
+                     echo "<br/>";
                      var_dump ($c );
                      
                 ?>
@@ -158,8 +161,83 @@
                 
                 ?>
                 
+                <?php
+                    $i =1;
+                    
+                    while($i <= 10) {
+                        echo $i++;
+                    }
                 
+                
+                 
+                ?>
+                <?php
+                $i =1;
+                do{
+                    
+                    echo $i++;
+                }while($i <=10);
+	
+?><br />
+                <?php
+                
+                    for($i =0; $i <=10; $i++){
+                        if ($i==7){
+                            break;
+                        }
+                        echo $i;
+                    }
+	
+    
+    
+?>
+<br />
+<?php
+	           for ($num =1000, $i=0; $num>50;$num/=2, $i++);
+               
+               echo "iteration count {$i}<br/>";
+               echo $num;
+?>
+<br />
                                     
+<?php
+	           $array =array("a","b","c","d");
+               
+               
+               foreach ($array as $key => $value){
+                echo "{$key} - {$value}";
+               }
+?>
+<br />
+<?php
+	           $array =array("1","2","3","4");
+               
+               var_dump($array);
+               
+               foreach ($array as  &$value){
+                $value *=2;
+               }
+               unset($value);
+               var_dump($array);
+?>
+<br />
+<?php
+	$till =9;
+    
+    for($i = 1; $i<=$till; $i++){
+        for($j = 0; $j <=$till; $j++){
+            $tmp = $i*$j;
+            
+        }
+        echo $tmp;
+    }
+    
+?>
+
+
+
+
+
 
 </body>
 
