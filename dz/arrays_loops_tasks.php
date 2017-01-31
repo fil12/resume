@@ -169,8 +169,10 @@ $array = array('html', 'css', 'php', 'js', 'jq' );
 <?php
    $arr=array(4, 2, 5, 19, 13, 0, 10);
     $e =2;
+    $e1 = 3;
+    $e2 =4;
     foreach($arr as $v){
-        if($v == $e) {
+        if(($v == $e)||($v == $e1)||($v == $e2)) {
             echo "Есть!";
             break;
         }
@@ -178,32 +180,7 @@ $array = array('html', 'css', 'php', 'js', 'jq' );
     }     
         echo " <br/>";
 ?>
-<?php
-   $arr=array(4, 2, 5, 19, 13, 0, 10);
-    $e =3;
-    foreach($arr as $v){
-        if($v == $e) {
-            echo "Есть!";
-            break;
-        }
-        else {echo "Нет";}
-        break;
-    }     
-        echo " <br/>";
-?>
-<?php
-   $arr=array(4, 2, 5, 19, 13, 0, 10);
-    $e =4;
-    foreach($arr as $v){
-        if($v == $e) {
-            echo "Есть!";
-            break;
-        }
-        else {echo "Нет";}
-        break;
-    }     
-        echo " <br/>";
-?>
+
 <hr />
 <?php
 	$arr = array(4, 2, 5, 19, 13, 0, 10);
