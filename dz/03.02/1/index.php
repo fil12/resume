@@ -5,9 +5,9 @@
         <title>choose your color </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="Refresh" content="300" />
+        <meta http-equiv="Refresh" content="20" />
     </head>
-    <body style="background-color: <?= $c ;?>">
+    <body style="background-color: <?= $_COOKIE['color'] ;?>">
         <div>
             <form action="1.php" method="post">
                     <p><select   name="color">
